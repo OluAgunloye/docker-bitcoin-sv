@@ -1,0 +1,18 @@
+diff --git a/src/rpc/misc.cpp b/src/rpc/misc.cpp
+index 615fb38b2..194fa350f 100644
+--- a/src/rpc/misc.cpp
++++ b/src/rpc/misc.cpp
+@@ -18,12 +18,11 @@
+ #include "util.h"
+ #include "utilstrencodings.h"
+ #include "validation.h"
++#include "vmtouch.h"
+ #ifdef ENABLE_WALLET
+ #include "wallet/rpcwallet.h"
+ #include "wallet/wallet.h"
+ #include "wallet/walletdb.h"
+-#include "vmtouch.h"
+-
+ #endif
+ 
+ #include <univalue.h>
